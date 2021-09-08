@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F7C206B26E8513A0080678B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7C206A26E8513A0080678B /* AppDelegate.swift */; };
+		0F7C206D26E8513A0080678B /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0F7C206C26E8513A0080678B /* GameScene.sks */; };
+		0F7C206F26E8513A0080678B /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0F7C206E26E8513A0080678B /* Actions.sks */; };
+		0F7C207126E8513A0080678B /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7C207026E8513A0080678B /* GameScene.swift */; };
+		0F7C207326E8513A0080678B /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7C207226E8513A0080678B /* GameViewController.swift */; };
+		0F7C207626E8513A0080678B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F7C207426E8513A0080678B /* Main.storyboard */; };
+		0F7C207826E8513B0080678B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F7C207726E8513B0080678B /* Assets.xcassets */; };
+		0F7C208326E8513B0080678B /* Space_BattleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7C208226E8513B0080678B /* Space_BattleTests.swift */; };
+		0F7C208E26E8513B0080678B /* Space_BattleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7C208D26E8513B0080678B /* Space_BattleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0F7C207F26E8513B0080678B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F7C205F26E8513A0080678B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F7C206626E8513A0080678B;
+			remoteInfo = "Space Battle";
+		};
+		0F7C208A26E8513B0080678B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F7C205F26E8513A0080678B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F7C206626E8513A0080678B;
+			remoteInfo = "Space Battle";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F7C206726E8513A0080678B /* Space Battle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Space Battle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F7C206A26E8513A0080678B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0F7C206C26E8513A0080678B /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		0F7C206E26E8513A0080678B /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		0F7C207026E8513A0080678B /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		0F7C207226E8513A0080678B /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		0F7C207526E8513A0080678B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0F7C207726E8513B0080678B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0F7C207926E8513B0080678B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F7C207E26E8513B0080678B /* Space BattleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Space BattleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F7C208226E8513B0080678B /* Space_BattleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Space_BattleTests.swift; sourceTree = "<group>"; };
+		0F7C208426E8513B0080678B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F7C208926E8513B0080678B /* Space BattleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Space BattleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F7C208D26E8513B0080678B /* Space_BattleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Space_BattleUITests.swift; sourceTree = "<group>"; };
+		0F7C208F26E8513B0080678B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F7C206426E8513A0080678B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F7C207B26E8513B0080678B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F7C208626E8513B0080678B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F7C205E26E8513A0080678B = {
+			isa = PBXGroup;
+			children = (
+				0F7C206926E8513A0080678B /* Space Battle */,
+				0F7C208126E8513B0080678B /* Space BattleTests */,
+				0F7C208C26E8513B0080678B /* Space BattleUITests */,
+				0F7C206826E8513A0080678B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F7C206826E8513A0080678B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F7C206726E8513A0080678B /* Space Battle.app */,
+				0F7C207E26E8513B0080678B /* Space BattleTests.xctest */,
+				0F7C208926E8513B0080678B /* Space BattleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F7C206926E8513A0080678B /* Space Battle */ = {
+			isa = PBXGroup;
+			children = (
+				0F7C206A26E8513A0080678B /* AppDelegate.swift */,
+				0F7C206C26E8513A0080678B /* GameScene.sks */,
+				0F7C206E26E8513A0080678B /* Actions.sks */,
+				0F7C207026E8513A0080678B /* GameScene.swift */,
+				0F7C207226E8513A0080678B /* GameViewController.swift */,
+				0F7C207426E8513A0080678B /* Main.storyboard */,
+				0F7C207726E8513B0080678B /* Assets.xcassets */,
+				0F7C207926E8513B0080678B /* Info.plist */,
+			);
+			path = "Space Battle";
+			sourceTree = "<group>";
+		};
+		0F7C208126E8513B0080678B /* Space BattleTests */ = {
+			isa = PBXGroup;
+			children = (
+				0F7C208226E8513B0080678B /* Space_BattleTests.swift */,
+				0F7C208426E8513B0080678B /* Info.plist */,
+			);
+			path = "Space BattleTests";
+			sourceTree = "<group>";
+		};
+		0F7C208C26E8513B0080678B /* Space BattleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0F7C208D26E8513B0080678B /* Space_BattleUITests.swift */,
+				0F7C208F26E8513B0080678B /* Info.plist */,
+			);
+			path = "Space BattleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F7C206626E8513A0080678B /* Space Battle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F7C209226E8513B0080678B /* Build configuration list for PBXNativeTarget "Space Battle" */;
+			buildPhases = (
+				0F7C206326E8513A0080678B /* Sources */,
+				0F7C206426E8513A0080678B /* Frameworks */,
+				0F7C206526E8513A0080678B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Space Battle";
+			productName = "Space Battle";
+			productReference = 0F7C206726E8513A0080678B /* Space Battle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0F7C207D26E8513B0080678B /* Space BattleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F7C209526E8513B0080678B /* Build configuration list for PBXNativeTarget "Space BattleTests" */;
+			buildPhases = (
+				0F7C207A26E8513B0080678B /* Sources */,
+				0F7C207B26E8513B0080678B /* Frameworks */,
+				0F7C207C26E8513B0080678B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F7C208026E8513B0080678B /* PBXTargetDependency */,
+			);
+			name = "Space BattleTests";
+			productName = "Space BattleTests";
+			productReference = 0F7C207E26E8513B0080678B /* Space BattleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0F7C208826E8513B0080678B /* Space BattleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F7C209826E8513B0080678B /* Build configuration list for PBXNativeTarget "Space BattleUITests" */;
+			buildPhases = (
+				0F7C208526E8513B0080678B /* Sources */,
+				0F7C208626E8513B0080678B /* Frameworks */,
+				0F7C208726E8513B0080678B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F7C208B26E8513B0080678B /* PBXTargetDependency */,
+			);
+			name = "Space BattleUITests";
+			productName = "Space BattleUITests";
+			productReference = 0F7C208926E8513B0080678B /* Space BattleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F7C205F26E8513A0080678B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					0F7C206626E8513A0080678B = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					0F7C207D26E8513B0080678B = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 0F7C206626E8513A0080678B;
+					};
+					0F7C208826E8513B0080678B = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 0F7C206626E8513A0080678B;
+					};
+				};
+			};
+			buildConfigurationList = 0F7C206226E8513A0080678B /* Build configuration list for PBXProject "Space Battle" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0F7C205E26E8513A0080678B;
+			productRefGroup = 0F7C206826E8513A0080678B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F7C206626E8513A0080678B /* Space Battle */,
+				0F7C207D26E8513B0080678B /* Space BattleTests */,
+				0F7C208826E8513B0080678B /* Space BattleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F7C206526E8513A0080678B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F7C207626E8513A0080678B /* Main.storyboard in Resources */,
+				0F7C206D26E8513A0080678B /* GameScene.sks in Resources */,
+				0F7C207826E8513B0080678B /* Assets.xcassets in Resources */,
+				0F7C206F26E8513A0080678B /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F7C207C26E8513B0080678B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F7C208726E8513B0080678B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F7C206326E8513A0080678B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F7C207126E8513A0080678B /* GameScene.swift in Sources */,
+				0F7C207326E8513A0080678B /* GameViewController.swift in Sources */,
+				0F7C206B26E8513A0080678B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F7C207A26E8513B0080678B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F7C208326E8513B0080678B /* Space_BattleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F7C208526E8513B0080678B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F7C208E26E8513B0080678B /* Space_BattleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F7C208026E8513B0080678B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F7C206626E8513A0080678B /* Space Battle */;
+			targetProxy = 0F7C207F26E8513B0080678B /* PBXContainerItemProxy */;
+		};
+		0F7C208B26E8513B0080678B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F7C206626E8513A0080678B /* Space Battle */;
+			targetProxy = 0F7C208A26E8513B0080678B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0F7C207426E8513A0080678B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F7C207526E8513A0080678B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F7C209026E8513B0080678B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0F7C209126E8513B0080678B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F7C209326E8513B0080678B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Space Battle/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Chalu-Jugo.Space-Battle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0F7C209426E8513B0080678B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Space Battle/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Chalu-Jugo.Space-Battle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0F7C209626E8513B0080678B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Space BattleTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Chalu-Jugo.Space-BattleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Space Battle.app/Space Battle";
+			};
+			name = Debug;
+		};
+		0F7C209726E8513B0080678B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Space BattleTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Chalu-Jugo.Space-BattleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Space Battle.app/Space Battle";
+			};
+			name = Release;
+		};
+		0F7C209926E8513B0080678B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Space BattleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Chalu-Jugo.Space-BattleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Space Battle";
+			};
+			name = Debug;
+		};
+		0F7C209A26E8513B0080678B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Space BattleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Chalu-Jugo.Space-BattleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Space Battle";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F7C206226E8513A0080678B /* Build configuration list for PBXProject "Space Battle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F7C209026E8513B0080678B /* Debug */,
+				0F7C209126E8513B0080678B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F7C209226E8513B0080678B /* Build configuration list for PBXNativeTarget "Space Battle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F7C209326E8513B0080678B /* Debug */,
+				0F7C209426E8513B0080678B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F7C209526E8513B0080678B /* Build configuration list for PBXNativeTarget "Space BattleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F7C209626E8513B0080678B /* Debug */,
+				0F7C209726E8513B0080678B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F7C209826E8513B0080678B /* Build configuration list for PBXNativeTarget "Space BattleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F7C209926E8513B0080678B /* Debug */,
+				0F7C209A26E8513B0080678B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F7C205F26E8513A0080678B /* Project object */;
+}
