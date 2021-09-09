@@ -16,6 +16,9 @@
 		0F7C207826E8513B0080678B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F7C207726E8513B0080678B /* Assets.xcassets */; };
 		0F7C208326E8513B0080678B /* Space_BattleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7C208226E8513B0080678B /* Space_BattleTests.swift */; };
 		0F7C208E26E8513B0080678B /* Space_BattleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7C208D26E8513B0080678B /* Space_BattleUITests.swift */; };
+		0F7C209C26E87B010080678B /* bullet.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0F7C209B26E87B010080678B /* bullet.mp3 */; };
+		0FDDB62826E97DF700599FA3 /* explode.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0FDDB62726E97DF700599FA3 /* explode.mp3 */; };
+		0FDDB62A26E97F4A00599FA3 /* PressStart2P-vaV7.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FDDB62926E97F4A00599FA3 /* PressStart2P-vaV7.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		0F7C208926E8513B0080678B /* Space BattleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Space BattleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F7C208D26E8513B0080678B /* Space_BattleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Space_BattleUITests.swift; sourceTree = "<group>"; };
 		0F7C208F26E8513B0080678B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F7C209B26E87B010080678B /* bullet.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bullet.mp3; sourceTree = "<group>"; };
+		0FDDB62726E97DF700599FA3 /* explode.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = explode.mp3; sourceTree = "<group>"; };
+		0FDDB62926E97F4A00599FA3 /* PressStart2P-vaV7.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PressStart2P-vaV7.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,9 @@
 				0F7C207426E8513A0080678B /* Main.storyboard */,
 				0F7C207726E8513B0080678B /* Assets.xcassets */,
 				0F7C207926E8513B0080678B /* Info.plist */,
+				0F7C209B26E87B010080678B /* bullet.mp3 */,
+				0FDDB62726E97DF700599FA3 /* explode.mp3 */,
+				0FDDB62926E97F4A00599FA3 /* PressStart2P-vaV7.ttf */,
 			);
 			path = "Space Battle";
 			sourceTree = "<group>";
@@ -236,8 +245,11 @@
 			files = (
 				0F7C207626E8513A0080678B /* Main.storyboard in Resources */,
 				0F7C206D26E8513A0080678B /* GameScene.sks in Resources */,
+				0FDDB62826E97DF700599FA3 /* explode.mp3 in Resources */,
+				0F7C209C26E87B010080678B /* bullet.mp3 in Resources */,
 				0F7C207826E8513B0080678B /* Assets.xcassets in Resources */,
 				0F7C206F26E8513A0080678B /* Actions.sks in Resources */,
+				0FDDB62A26E97F4A00599FA3 /* PressStart2P-vaV7.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +445,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L45B9LVS77;
 				INFOPLIST_FILE = "Space Battle/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -451,6 +464,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L45B9LVS77;
 				INFOPLIST_FILE = "Space Battle/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
