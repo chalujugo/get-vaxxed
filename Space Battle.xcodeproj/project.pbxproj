@@ -19,6 +19,9 @@
 		0F7C209C26E87B010080678B /* bullet.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0F7C209B26E87B010080678B /* bullet.mp3 */; };
 		0FDDB62826E97DF700599FA3 /* explode.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0FDDB62726E97DF700599FA3 /* explode.mp3 */; };
 		0FDDB62A26E97F4A00599FA3 /* PressStart2P-vaV7.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FDDB62926E97F4A00599FA3 /* PressStart2P-vaV7.ttf */; };
+		0FF9B4B8270FF3920022D355 /* GameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF9B4B7270FF3920022D355 /* GameOver.swift */; };
+		0FF9B4BE2710DD0F0022D355 /* impact.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0FF9B4BD2710DD0F0022D355 /* impact.wav */; };
+		0FF9B4C22710DD860022D355 /* shoot.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0FF9B4C12710DD860022D355 /* shoot.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +60,9 @@
 		0F7C209B26E87B010080678B /* bullet.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bullet.mp3; sourceTree = "<group>"; };
 		0FDDB62726E97DF700599FA3 /* explode.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = explode.mp3; sourceTree = "<group>"; };
 		0FDDB62926E97F4A00599FA3 /* PressStart2P-vaV7.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PressStart2P-vaV7.ttf"; sourceTree = "<group>"; };
+		0FF9B4B7270FF3920022D355 /* GameOver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOver.swift; sourceTree = "<group>"; };
+		0FF9B4BD2710DD0F0022D355 /* impact.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = impact.wav; sourceTree = "<group>"; };
+		0FF9B4C12710DD860022D355 /* shoot.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = shoot.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +113,7 @@
 		0F7C206926E8513A0080678B /* Space Battle */ = {
 			isa = PBXGroup;
 			children = (
+				0FF9B4B7270FF3920022D355 /* GameOver.swift */,
 				0F7C206A26E8513A0080678B /* AppDelegate.swift */,
 				0F7C206C26E8513A0080678B /* GameScene.sks */,
 				0F7C206E26E8513A0080678B /* Actions.sks */,
@@ -115,6 +122,8 @@
 				0F7C207426E8513A0080678B /* Main.storyboard */,
 				0F7C207726E8513B0080678B /* Assets.xcassets */,
 				0F7C207926E8513B0080678B /* Info.plist */,
+				0FF9B4C12710DD860022D355 /* shoot.mp3 */,
+				0FF9B4BD2710DD0F0022D355 /* impact.wav */,
 				0F7C209B26E87B010080678B /* bullet.mp3 */,
 				0FDDB62726E97DF700599FA3 /* explode.mp3 */,
 				0FDDB62926E97F4A00599FA3 /* PressStart2P-vaV7.ttf */,
@@ -244,7 +253,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F7C207626E8513A0080678B /* Main.storyboard in Resources */,
+				0FF9B4C22710DD860022D355 /* shoot.mp3 in Resources */,
 				0F7C206D26E8513A0080678B /* GameScene.sks in Resources */,
+				0FF9B4BE2710DD0F0022D355 /* impact.wav in Resources */,
 				0FDDB62826E97DF700599FA3 /* explode.mp3 in Resources */,
 				0F7C209C26E87B010080678B /* bullet.mp3 in Resources */,
 				0F7C207826E8513B0080678B /* Assets.xcassets in Resources */,
@@ -277,6 +288,7 @@
 				0F7C207126E8513A0080678B /* GameScene.swift in Sources */,
 				0F7C207326E8513A0080678B /* GameViewController.swift in Sources */,
 				0F7C206B26E8513A0080678B /* AppDelegate.swift in Sources */,
+				0FF9B4B8270FF3920022D355 /* GameOver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
