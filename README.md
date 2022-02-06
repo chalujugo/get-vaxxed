@@ -1,5 +1,5 @@
 # get-vaxxed
-A simple space-invaders type game
+A simple space-invaders type game made with Swift (SpriteKit and GameKit), not realeased on the App Store (for now)
 
 * Shoot incoming COVID-19 viruses and earn points
 * Every virus you miss causes you to lose one life
